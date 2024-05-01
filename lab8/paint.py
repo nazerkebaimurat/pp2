@@ -7,7 +7,7 @@ def main():
     radius = 15
     mode = 'blue'
     points = []
-
+    
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -61,7 +61,7 @@ def drawLineBetween(screen, index, start, end, width, color_mode):
     dx = start[0] - end[0]
     dy = start[1] - end[1]
     iterations = max(abs(dx), abs(dy))
-    
+
     for i in range(iterations):
         progress = 1.0 * i / iterations
         aprogress = 1 - progress

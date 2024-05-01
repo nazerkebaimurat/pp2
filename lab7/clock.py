@@ -7,9 +7,9 @@ screen = pg.display.set_mode((800, 800))
 pg.display.set_caption("Micky Mouse Clock")
 clock = pg.time.Clock()
 
-micky = pg.image.load(r"clock_assets\mainclock.png")
-left = pg.image.load(r"clock_assets\leftarm.png")
-right = pg.image.load(r"clock_assets\rightarm.png")
+micky = pg.image.load(r"C:\Users\rrro0\OneDrive\Рабочий стол\clock_assets\mainclock.png")
+left = pg.image.load(r"C:\Users\rrro0\OneDrive\Рабочий стол\clock_assets\leftarm.png")
+right = pg.image.load(r"C:\Users\rrro0\OneDrive\Рабочий стол\clock_assets\rightarm.png")
 
 done = False
 while not done:
